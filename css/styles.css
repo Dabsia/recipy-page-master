@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: #FAFAFA
+}
+h1{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #000000;
+    margin: 32px auto auto 11px;
+
+}
+.subheading p{
+    
+    font-family: Montserrat;
+font-style: italic;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+
+/* Gray 2 */
+
+color: #4F4F4F;
+
+}
+.subheading{
+    display: flex;
+    margin: 12px auto auto 11px;
+  
+}
+.image-holder img{
+    width: 352px;
+    height: 202px;
+    margin: 12px auto auto 12px;
+    border-radius: 12px;
+}
+.recipe-info{
+    display: flex;
+    margin: 24px auto auto 11px;
+}
+.info-name{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 10px;
+    text-transform: uppercase;
+
+/* Gray 4 */
+
+color: #BDBDBD;
+}
+.info-value{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+
+    /* Orange */
+
+    color: #F2994A;
+}
+.info-icon{
+    color: #F2994A;
+    margin-right: 5.52px;
+    
+}
+.flex{
+    display: flex;
+}
+.flex .info-value{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+
+/* Gray 1 */
+
+color: #333333;
+}
+.clock{
+    color: #333;
+}
+h2{
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height */
+
+
+/* Gray 1 */
+
+color: #333333;
+margin: 30.25px auto auto 11px;
+}
+.crust{
+    font-family: Playfair Display;
+font-style: italic;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+
+/* Gray 1 */
+
+color: #333333;
+margin: 13px auto auto 11px;
+}
+label{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 25px;
+margin-left: 8px;
+
+
+color: #333333;
+
+}
+.first-item{
+    margin: 24px auto auto 11px;
+}
+.second-item{
+    margin: 3px auto auto 11px ;
+}
+.third-item{
+    margin: 14px auto auto 11px;
+}
+.title{
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+
+/* Gray 1 */
+
+color: #333333;
+}
+.list{
+    list-style-type: square;
+    margin: 28px auto auto 30px;
+    padding-right: 10px;
+}
+.list-item{
+    font-family: Montserrat;
+font-style: normal;
+font-size: 16px;
+line-height: 150%;
+color: #333333;
+
+}
+.list-item2{
+    margin-top: 11px;
+}
+.list-item3{
+    margin-top: 35px;
+}
+.list-item4, .list-item5{
+    margin-top: 25px;
+}
+.list-item6, .list-item7{
+    margin-top: 46px;
+}
+.list-item7{
+    margin-bottom: 26px;
+}
+.link, .source{
+    font-family: Montserrat;
+font-style: italic;
+font-weight: normal;
+font-size: 12px;
+line-height: 150%;
+color: #BDBDBD;
+margin: 26px auto 129px 11px;
+
+}
+a{
+    cursor: pointer;
+}
+
+.dev-challenges-profile{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+color: #828282;
+
+}
+footer{
+    text-align: center;
+    margin-top: 129px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 760px){
+    *{
+        background-color: #fff;
+    }
+    .big-box{
+        display: flex;
+        justify-content: space-between;
+        margin: 0  236px;
+    }
+    main{
+        order: 1;
+        width: 500px;
+    }
+    .menu-box{
+        order: 2;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        height: 250px;
+        width: 170px;
+       
+        
+    }
+    h2{
+        margin: 0;
+    }
+    .flex{
+        display: grid;
+        justify-content: center;
+    }
+    .recipe-info{
+        display: flex;
+        justify-content: center;
+    }
+    h1{
+        font-size: 48px;
+        line-height: 60px;
+        /* width: 587px; */
+        margin: 56px 236px 0;
+    }
+    .subheading p{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .subheading{
+        width:592px;
+        margin: 12px 236px;
+    }
+    .image-holder {
+        width: 969px;
+        height: 444px;
+        margin:30px 236px;
+    }
+    .image-holder img{
+        width: 90%;
+        height: 100%;
+    }
+}
+
